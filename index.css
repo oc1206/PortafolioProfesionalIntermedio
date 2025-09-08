@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+:root{
+    --font-bungee: 'Bungee', cursive;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #171515;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 900px;
+    height: 500px;
+    padding: 100px;
+}
+
+.main__informacion{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__informacion__titulo{
+    font-family: var(--font-bungee), sans-serif;
+}
+
+.main__informacion__parrafo{
+    width: 600px;
+    text-align: center;
+}
+
+.main__links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
