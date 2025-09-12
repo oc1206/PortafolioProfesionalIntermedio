@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url("./fondo.jpg");
+    background-image: url("../img/fondo.jpg");
     background-color: #F9FAFB;
     background-size: cover;
     background-position: center;
