@@ -31,6 +31,11 @@
     justify-content: space-between;
     padding: 0 40px;
     border-bottom: 2px solid #f4f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header__logo{
@@ -61,6 +66,14 @@
 }
 
 /* estilos del main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* estilos de la seccion acerca de mi */
 
 .acercademi{
     display: flex;
@@ -132,3 +145,57 @@
     color: var(--color-tercero);
     line-height: 1.5;
 }
+
+/* estilos de seccion habilidades */
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.habilidades__subtitulo{
+    font-family: var(--fuente-montserrat), sans-serif;
+    font-size: 24px;
+    color: var(--color-secondary);
+    text-align: left;
+    width: 100%;
+}
+
+.habilidades__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.habilidades__lista h3{
+    color: var(--color-primary);
+    font-family: var(--fuente-montserrat), sans-serif;
+    font-size: 16px;
+}
+
+.habilidad__lista__item{
+    width: 180px;
+    height: 110px;
+    background-color: var(--color-background);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.habilidad__lista__item__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.habilidad__lista__item img{
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
