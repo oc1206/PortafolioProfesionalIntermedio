@@ -199,3 +199,49 @@
     object-fit: contain;
 }
 
+/* estilos de la seccion experiencia */
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.experiencia__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.experiencia__titulo{
+    font-family: var(--fuente-montserrat), sans-serif;
+    font-size: 24px;
+    color: var(--color-secondary);
+    text-align: left;
+    width: 100%;
+}
+
+.experiencia__lista__item{
+    display: flex;
+    background: var(--color-surface);
+    border-radius: 12px;
+    padding: 24px;
+    align-items: flex-start;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.experiencia__lista__item__icono{
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.experiencia__lista__item__icono img{
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+}
+
